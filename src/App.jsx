@@ -136,6 +136,15 @@ class App extends React.Component {
                 <div className="form-group">
                   <input className="btn btn-primary" type="submit" value="Submit"/>
                 </div>
+                <div className="form-group">
+                  <label className="w-100">
+                    Order:
+                    <textarea id="content" className="materialize-textarea" onChange={this.handleChange}/>
+                  </label>
+                </div>
+                <div className="form-group">
+                  <input className="btn btn-primary" type="submit" value="Sort"/>
+                </div>
               </form>
             </div>
           </div>
